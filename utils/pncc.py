@@ -10,7 +10,7 @@ import cv2
 import numpy as np
 import os.path as osp
 
-from ..Sim3DR import rasterize
+from Sim3DR import rasterize
 from .functions import plot_image
 from .io import _load, _dump
 from .tddfa_util import _to_ctype
