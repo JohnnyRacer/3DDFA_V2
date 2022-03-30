@@ -2,7 +2,7 @@
 
 
 import numpy as np
-import Sim3DR_Cython
+from . import Sim3DR_Cython
 import os.path as osp
 import sys
 
